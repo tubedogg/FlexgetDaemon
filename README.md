@@ -35,3 +35,9 @@ To set ```PYTHONPATH``` directly, add this line *before* the line that starts wi
 ```
 export PYTHONPATH=/your/path/to/site-packages
 ```
+
+#### Copyright ####
+
+I am putting this into the public domain and to the fullest extent possible am relinquishing any copyright interest in the files in this repository.
+
+This bundle contains a simple script that launches Flexget and **does not** contain any Flexget code or resources.
