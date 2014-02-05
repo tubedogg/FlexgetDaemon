@@ -40,4 +40,4 @@ export PYTHONPATH=/your/path/to/site-packages
 
 I am putting this into the public domain and to the fullest extent possible am relinquishing any copyright interest in the files in this repository.
 
-This bundle contains a simple script that launches Flexget and **does not** contain any Flexget code or resources.
+This bundle contains a simple script that launches Flexget and **does not** contain any Flexget code or resources. This project was not created, and is not maintained, by Flexget.
