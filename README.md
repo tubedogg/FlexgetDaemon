@@ -3,9 +3,6 @@ FlexgetDaemon.app
 
 Launches [Flexget](http://flexget.com) in daemon mode in the background.
 
-#### Erroneus console traceback errors ####
-**Please note** due to an apparent bug in the Flexget daemon implementation, this method employs something of a workaround to launch. If you run ```flexget execute``` commands from Terminal while the daemon is running, you may see lines like this: ```Traceback (most recent call last):``` They are safe to ignore.
-
 #### Install ####
 
 Download the [zip file](https://github.com/tubedogg/FlexgetDaemon/archive/master.zip). Unzip and move the .app file whereever you would like it.
@@ -35,6 +32,10 @@ To set ```PYTHONPATH``` directly, add this line *before* the line that starts wi
 ```
 export PYTHONPATH=/your/path/to/site-packages
 ```
+
+#### Erroneus console traceback errors ####
+**As of 2/14/14 (release v1.0) the below should no longer be occurring.**
+Please note due to an apparent bug in the Flexget daemon implementation, this method employs something of a workaround to launch. If you run ```flexget execute``` commands from Terminal while the daemon is running, you may see lines like this: ```Traceback (most recent call last):``` They are safe to ignore.
 
 #### Copyright ####
 
