@@ -1,4 +1,3 @@
 #!/bin/bash
-
 . ~/.bash_profile
 /usr/local/bin/flexget daemon start &
